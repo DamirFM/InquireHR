@@ -3,7 +3,7 @@
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" />   
 
 ## Description  
-    InquireHR is a Node.js application that utilizes a database for managing departments, roles, and employees.
+InquireHR is a Node.js application that utilizes a database for managing departments, roles, and employees.
 
 ## Content ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) 
 - [Installation](#Installation)
@@ -46,5 +46,5 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 
 ## Questions
 If you have any questions or issues, please feel free to reach out:
-- GitHub:[https://github.com/DamirFM]
-- Email:[Do not hesitate to reach me with additional questions on my Email damiricanets@gmail.com]
+- GitHub:https://github.com/DamirFM
+- Email:Do not hesitate to reach me with additional questions on my Email damiricanets@gmail.com
