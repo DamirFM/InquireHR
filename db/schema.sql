@@ -1,13 +1,14 @@
 DROP DATABASE IF EXISTS manage_db;
+-- Create DB manage_db
 CREATE DATABASE manage_db;
-
+-- Pick DB manage_db
 USE manage_db;
-
+-- CREATE TABLE department
 CREATE TABLE department (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(80) NOT NULL
 );
-
+-- CREATE TABLE role
 CREATE TABLE role (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   title VARCHAR(80) NOT NULL,
@@ -17,7 +18,7 @@ CREATE TABLE role (
   REFERENCES department(id)
   ON DELETE SET NULL
 );
-
+-- CREATE TABLE employee
 CREATE TABLE employee (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   first_name VARCHAR(80) NOT NULL,
@@ -26,7 +27,7 @@ CREATE TABLE employee (
   FOREIGN KEY (role_id)
   REFERENCES role(id)
   ON DELETE SET NULL,
--- check this
+  -- make connection to itself
   manager_id INT,
   FOREIGN KEY (manager_id)
   REFERENCES employee(id)
