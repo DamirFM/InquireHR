@@ -31,7 +31,8 @@ InquireHR is a Node.js application that utilizes a database for managing departm
 - inquirer;
 
 ## Walkthrough video link
-- 
+- https://drive.google.com/file/d/1f92A09v5i4KrX2jatmY5HXHCHGaikzVm/view?usp=sharing
+
 ## License   
 This application is covered under MIT License
 (https://opensource.org/licenses/MIT)
